@@ -1,3 +1,4 @@
+<style>
 .header_title {
   padding: 60px;
   text-align: center;
@@ -35,6 +36,7 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
+    text-align:center
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -49,3 +51,4 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+</style>
