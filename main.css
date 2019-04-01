@@ -13,6 +13,10 @@
   line-height: small;
 }
 
+.no-highlight {
+  background-color: #FFFFFF
+}
+
 .header_pronouns {
   text-align: left;
   font-size: 15px;
@@ -49,6 +53,12 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.section-title {
+  text-align: center;
+
+
 }
 
 h1 {
