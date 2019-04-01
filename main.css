@@ -1,10 +1,19 @@
 <style>
 .header_title {
   padding: 60px;
-  text-align: center;
+  text-align: left;
   background: #1abc9c;
   color: white;
   font-size: 30px;
+}
+
+.header_affiliation {
+  padding: 60px;
+  text-align: left;
+  background: #1abc9c;
+  color: white;
+  font-size: 20px;
+  line-height: normal;
 }
 
 body {
