@@ -8,8 +8,8 @@
 }
 
 .header_affiliation {
+  padding: 60px;
   text-align: left;
-  color: white;
   font-size: 15px;
   line-height: small;
 }
@@ -17,7 +17,6 @@
 .header_pronouns {
   padding: 60px;
   text-align: left;
-  color: white;
   font-size: 15px;
   line-height: small;
 }
