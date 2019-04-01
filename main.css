@@ -10,10 +10,24 @@
 .header_affiliation {
   padding: 60px;
   text-align: left;
-  background: #1abc9c;
   color: white;
-  font-size: 20px;
-  line-height: normal;
+  font-size: 15px;
+  line-height: small;
+}
+
+.header_pronouns {
+  padding: 60px;
+  text-align: left;
+  color: white;
+  font-size: 15px;
+  line-height: small;
+}
+
+.header_email {
+  padding: 60px;
+  text-align: left;
+  font-size: 15px;
+  line-height: small;
 }
 
 body {
@@ -35,9 +49,11 @@ a {
     color: #999;
     background-color: #FFFF00
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -49,6 +65,7 @@ p {
     color: #333;
     text-align:center;
 }
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
