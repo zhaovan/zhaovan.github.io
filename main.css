@@ -13,6 +13,14 @@
   line-height: small;
 }
 
+.img {
+  margin-right: 10%
+  width: 100px
+  height: 100px
+}
+
+
+
 .no-highlight {
   background-color: #FFFFFF
 }
@@ -39,6 +47,11 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+ul#header__links li {
+  display: inline;
+}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
