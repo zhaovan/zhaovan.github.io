@@ -17,8 +17,6 @@
   margin-right: 10%
 }
 
-
-
 .no-highlight {
   background-color: #FFFFFF
 }
@@ -48,6 +46,7 @@ ul {
 
 ul.header__links li {
   display: inline;
+  margin: 10px;
 }
 
 nav ul, footer ul {
@@ -99,7 +98,7 @@ p {
     font-size: 1.3em;
     line-height: 1.4em;
     color: #333;
-    text-align:center;
+    text-align: left;
 }
 
 footer {
