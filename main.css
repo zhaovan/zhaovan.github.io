@@ -46,7 +46,7 @@ ul {
   padding: 0;
 }
 
-ul#header__links li {
+ul.header__links li {
   display: inline;
 }
 
