@@ -24,19 +24,18 @@
 .header_pronouns {
   text-align: left;
   font-size: 15px;
-  line-height: small;
 }
 
 .header_email {
   text-align: left;
   font-size: 15px;
-  line-height: small;
 }
 
 body {
     margin: 60px auto;
     width: 70%;
-    background-color: #F5F5DC
+    background-color: #F5F5DC;
+    font-family: "Leitura News","Palatino","Georgia","Times New Roman",serif;
 }
 
 ul {
@@ -64,7 +63,8 @@ nav ul li, footer ul li {
 
 a {
     text-decoration: none;
-    background-color: #FFFF00
+    background-color: #eded1c
+    color: black;
 }
 
 a:hover {
@@ -87,7 +87,7 @@ a:hover {
 }
 
 .button:hover {
-  background-color: transparent;
+  background-color: #000080;
 }
 
 h1 {
