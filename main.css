@@ -13,7 +13,7 @@
   line-height: small;
 }
 
-.img {
+.header_photo_wrapper {
   margin-right: 10%
 }
 
@@ -36,6 +36,7 @@
 body {
     margin: 60px auto;
     width: 70%;
+    background-color: #F5F5DC
 }
 
 ul {
@@ -86,7 +87,7 @@ a:hover {
 }
 
 .button:hover {
-  background-color: white;
+  background-color: lightblue;
 }
 
 h1 {
