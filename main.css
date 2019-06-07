@@ -38,7 +38,6 @@ header {
     -ms-flex-align: center;
     align-items: center;
     padding-bottom: 80px;
-
 }
 
 @media (min-width: 500px)
@@ -66,7 +65,7 @@ div {
   height: auto;
 }
 
-.header__contact {
+.header_email {
     font-family: "Inconsolata","Consolas",monospace;
     margin: 10px 0;
 }
@@ -104,17 +103,8 @@ div {
 
 .header__quote {
   font-style: italic;
-
-}
-/* .header_pronouns {
-  text-align: left;
-  font-size: 15px;
 }
 
-.header_email {
-  text-align: left;
-  font-size: 15px;
-} */
 
 body {
     font-family: "Leitura News","Palatino","Georgia","Times New Roman",serif;
