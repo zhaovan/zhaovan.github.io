@@ -21,9 +21,6 @@ time, mark, audio, video {
     scroll-behavior: smooth;
 }
 
-
-
-
 .header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -31,7 +28,7 @@ time, mark, audio, video {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -45,7 +42,6 @@ div {
 }
 
 .header_photo {
-  float: right;
   max-width: 100%;
   height: auto;
 }
