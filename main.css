@@ -83,6 +83,16 @@ ul {
   padding: 0;
 }
 
+.list-inline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.list-unstyled {
+    list-style-type: none;
+}
+
 ul.header_links li {
   display: inline;
   margin: 10px 0;
@@ -167,6 +177,8 @@ footer {
     -ms-flex-align: center;
     align-items: center;
 }
+
+.footer-end
 
 ul.posts {
     margin: 20px auto 40px;
