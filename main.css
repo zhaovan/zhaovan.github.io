@@ -293,3 +293,13 @@ ul.posts li {
     vertical-align: top;
     margin-bottom: 20px;
 }
+
+@media (min-width: 500px)
+.resume__title {
+    margin-bottom: 5px;
+}
+
+.resume__title {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
