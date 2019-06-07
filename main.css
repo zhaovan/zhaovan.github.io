@@ -67,6 +67,10 @@ nav ul li, footer ul li {
     text-decoration: underline;
 }
 
+#about p {
+  width: 70%
+}
+
 .section-title {
   text-align: center;
 }
