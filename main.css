@@ -73,10 +73,10 @@ div {
 } */
 
 body {
-    background-color: #e0e0d0;
     font-family: "Leitura News","Palatino","Georgia","Times New Roman",serif;
+    font-size: 16px;
+    line-height: 1.6;
 }
-
 ul {
   list-style-type: none;
   margin: 0;
