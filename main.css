@@ -188,6 +188,8 @@ footer {
 
 .footer-end {
   color: white;
+  z-index: 1;
+  text-align: center;
 }
 
 ul.posts {
