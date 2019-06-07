@@ -33,6 +33,7 @@ time, mark, audio, video {
     -ms-flex-align: center;
     align-items: center;
     padding-bottom: 80px;
+    background-color: #f4f4f4;
 }
 
 div {
@@ -138,7 +139,14 @@ a:hover {
 
 
 .section-title {
-  text-align: center;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+    display: table;
+    padding: 0 10px;
+    z-index: 2;
 }
 
 h1 {
@@ -221,6 +229,10 @@ ul.posts li {
     display: inline;
     font-size: 75px;
     margin-right: 12px;
+}
+
+#projects {
+  background-color: #eaf1f7
 }
 
 .resume__tag {
