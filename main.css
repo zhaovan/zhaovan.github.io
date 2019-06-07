@@ -1,4 +1,4 @@
-<style>
+
 .header_title {
   padding: 60px;
   text-align: left;
@@ -123,7 +123,6 @@ ul.posts li {
   background: white;
 }
 
-/* SKILLS SECTION */
 
 #skills {
     height: 100%;
@@ -168,11 +167,3 @@ ul.posts li {
     font-size: 75px;
     margin-right: 12px;
 }
-
-@media (min-width: 320px) and (max-width: 767px){
-    #skills p {
-        text-align: center;
-    }
-}
-
-</style>
