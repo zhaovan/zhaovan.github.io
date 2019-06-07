@@ -99,6 +99,7 @@ nav ul li, footer ul li {
 
 .about {
   background-color: #ffffff;
+  width: 100%;
 }
 
 a {
@@ -124,7 +125,7 @@ h1 {
 }
 
 p {
-    font-size: 1.3em;
+    font-size: 1em;
     line-height: 1.4em;
     color: #333;
     text-align: left;
@@ -132,7 +133,7 @@ p {
 }
 
 section p {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 footer {
@@ -167,6 +168,7 @@ ul.posts li {
     height: 100%;
     margin-top: 70px;
     background-color: #edfaff;
+    width: 100%;
 }
 
 #skills p {
