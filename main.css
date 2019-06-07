@@ -171,9 +171,21 @@ a:hover {
     display: table;
     padding: 0 10px;
     z-index: 2;
-    text-decoration: line-through;
-    text-decoration-color: #99ffff;
 }
+
+.section-title::after {
+    content: '';
+    background-color: #99ffff;;
+    height: 5px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
 
 h1 {
     font-size: 3em;
