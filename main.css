@@ -88,18 +88,17 @@ nav ul li, footer ul li {
   background-color: #ffffff;
 }
 
-#about a {
+a {
     text-decoration: none;
     color: black;
+    background-color: #c3eaf7;
 }
 
-#about a:hover {
+a:hover {
     text-decoration: underline;
+    background-color: #94d8ef;
 }
 
-#about p {
-  max-width: 800px;
-}
 
 .section-title {
   text-align: center;
@@ -153,10 +152,7 @@ ul.posts li {
 #skills {
     height: 100%;
     margin-top: 70px;
-}
-
-#skills .container {
-    background: white;
+    background-color: #edfaff;
 }
 
 #skills p {
