@@ -341,6 +341,14 @@ ul.posts li {
     font-size: 90%;
 }
 
+.resume__item-links>li:not(:last-of-type) {
+    margin-right: 10px;
+}
+
+.list-inline li:not(:last-of-type) {
+    padding-right: 20px;
+}
+
 dl.inline-flex {
   display: flex;
   flex-flow: row;
