@@ -171,6 +171,8 @@ a:hover {
     display: table;
     padding: 0 10px;
     z-index: 2;
+    text-decoration: line-through;
+    text-decoration-color: #99ffff;
 }
 
 h1 {
