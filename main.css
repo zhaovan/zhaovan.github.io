@@ -129,7 +129,7 @@ ul.posts li {
     margin-top: 70px;
 }
 
-#skills .container {
+#skills .container-fluid {
     /* background: linear-gradient( to right, #24243e, #0d47a1); */
     background: white;
 }
