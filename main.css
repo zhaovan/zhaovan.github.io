@@ -385,6 +385,10 @@ dl.inline-flex dd {
     width: 85%;
 }
 
+#news {
+  background-color: #e827a0
+}
+
 .news__item-description {
     margin-bottom: 10px;
 }
@@ -392,4 +396,6 @@ dl.inline-flex dd {
 .news__item-date, .news__item-description {
     display: inline-block;
     vertical-align: top;
+    font-style: italic;
+    text-align: center;
 }
