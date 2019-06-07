@@ -212,3 +212,13 @@ ul.posts li {
     background-color: #f2c4b7;
     color: #8f5a51;
 }
+
+@media (min-width: 640px)
+.resume__item-description {
+    width: 70%;
+}
+
+@media (min-width: 640px)
+.resume__item-description, .resume__item-summary {
+    margin-bottom: 60px;
+}
