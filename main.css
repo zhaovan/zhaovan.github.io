@@ -21,6 +21,11 @@ time, mark, audio, video {
     scroll-behavior: smooth;
 }
 
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
 
 .header {
     display: -webkit-box;
