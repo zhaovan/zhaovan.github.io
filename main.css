@@ -70,6 +70,9 @@ nav ul li, footer ul li {
 #about p {
   width: 70%
 }
+#about container {
+  background-color: #e0e0d0
+}
 
 .section-title {
   text-align: center;
@@ -104,9 +107,6 @@ ul.posts li {
 }
 
 
-.about {
-  background: white;
-}
 
 
 #skills {
