@@ -59,7 +59,7 @@ div {
   background-color:inherit;
 }
 .no-highlight:hover{
-  opacity: 1
+  text-decoration: none;
 }
 
 /* .header_pronouns {
