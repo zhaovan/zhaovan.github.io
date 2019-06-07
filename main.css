@@ -97,6 +97,11 @@ nav ul li, footer ul li {
     margin: 0 auto;
 }
 
+@media (min-width: 500px)
+.container {
+    padding: 40px;
+}
+
 .about {
   background-color: #ffffff;
   width: 100%;
