@@ -82,6 +82,10 @@ div {
     justify-content: center;
 }
 
+.header__quote {
+  font-style: italic;
+
+}
 /* .header_pronouns {
   text-align: left;
   font-size: 15px;
