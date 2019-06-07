@@ -17,6 +17,7 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    box-sizing: border-box;
 }
 
 .header {
@@ -34,6 +35,10 @@ time, mark, audio, video {
     padding-bottom: 80px;
 }
 
+div {
+    display: block;
+}
+
 .header_photo {
   float: right;
   max-width: 100%;
@@ -49,23 +54,6 @@ time, mark, audio, video {
     margin-bottom: 0;
     letter-spacing: 2px;
 }
-
-/* .header_title {
-  padding: 60px;
-  text-align: left;
-  background: #1abc9c;
-  color: white;
-  font-size: 30px;
-}
-
-.header_affiliation {
-  text-align: left;
-  font-size: 15px;
-}
-
-.header_photo_wrapper {
-  margin-right: 10%
-} */
 
 .no-highlight {
   background-color:inherit;
