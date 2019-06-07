@@ -249,3 +249,9 @@ ul.posts li {
 .resume__item-description, .resume__item-summary {
     margin-bottom: 60px;
 }
+
+.resume__item-description, .resume__item-summary {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
