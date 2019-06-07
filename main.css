@@ -31,6 +31,7 @@
 }
 
 body {
+    background-color: #e0e0d0;
     font-family: "Leitura News","Palatino","Georgia","Times New Roman",serif;
 }
 
@@ -75,9 +76,6 @@ nav ul li, footer ul li {
 
 #about p {
   max-width: 800px;
-}
-#about {
-  background-color: #e0e0d0
 }
 
 .section-title {
