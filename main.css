@@ -19,6 +19,16 @@
   height: auto;
 }
 
+.header__contact {
+    font-family: "Inconsolata","Consolas",monospace;
+    margin: 10px 0;
+}
+
+.header__affiliation {
+    margin-bottom: 0;
+    letter-spacing: 2px;
+}
+
 /* .header_title {
   padding: 60px;
   text-align: left;
@@ -84,7 +94,6 @@ nav ul li, footer ul li {
 .container {
     max-width: 860px;
     margin: 0 auto;
-    padding: 20px;
 }
 
 .about {
@@ -148,9 +157,6 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-
-
-
 
 #skills {
     height: 100%;
