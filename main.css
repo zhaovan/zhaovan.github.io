@@ -37,7 +37,7 @@
 } */
 
 .no-highlight {
-  background-color: #FFFFFF
+  background-color:inherit;
 }
 
 /* .header_pronouns {
