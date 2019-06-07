@@ -303,3 +303,9 @@ ul.posts li {
     font-weight: bold;
     font-size: 1.2rem;
 }
+
+.resume__location {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
