@@ -298,6 +298,10 @@ ul.posts li {
     color: #8f5a51;
 }
 
+.resume__tag.classwork {
+  background-color: #ffc966;
+  color: #b27300;
+}
 
 .resume__item-description {
     width: 70%;
