@@ -21,9 +21,6 @@ time, mark, audio, video {
     scroll-behavior: smooth;
 }
 
-header {
-
-}
 
 .header {
     display: -webkit-box;
@@ -348,14 +345,15 @@ dl.inline-flex {
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
-  width: 300px;      /* set the container width*/
   overflow: visible;
 }
+
 dl.inline-flex dt {
   flex: 0 0 50%;
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
 dl.inline-flex dd {
   flex:0 0 50%;
   margin-left: auto;
