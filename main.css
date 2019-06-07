@@ -163,3 +163,20 @@ ul.posts li {
     font-size: 75px;
     margin-right: 12px;
 }
+
+.resume__tag {
+    font-family: "Inconsolata","Consolas",monospace;
+    font-size: 0.9rem;
+    padding: 1px 4px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    color: #333;
+    background-color: #eaeaea;
+}
+
+.resume__tag.research {
+    background-color: #f2c4b7;
+    color: #8f5a51;
+}
