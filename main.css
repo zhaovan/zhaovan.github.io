@@ -39,6 +39,9 @@
 .no-highlight {
   background-color:inherit;
 }
+.no-highlight:hover{
+  opacity: 1
+}
 
 /* .header_pronouns {
   text-align: left;
