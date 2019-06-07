@@ -178,7 +178,9 @@ footer {
     align-items: center;
 }
 
-.footer-end
+.footer-end {
+  color: white;
+}
 
 ul.posts {
     margin: 20px auto 40px;
