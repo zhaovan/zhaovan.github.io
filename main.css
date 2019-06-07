@@ -74,7 +74,7 @@ nav ul li, footer ul li {
 }
 
 #about p {
-  width: 70%
+  max-width: 800px;
 }
 #about .container {
   background-color: #e0e0d0
