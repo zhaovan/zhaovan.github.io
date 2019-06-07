@@ -369,3 +369,17 @@ dl.inline-flex dd {
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
+@media (min-width: 640px)
+.news__item-description {
+    width: 85%;
+}
+
+.news__item-description {
+    margin-bottom: 10px;
+}
+
+.news__item-date, .news__item-description {
+    display: inline-block;
+    vertical-align: top;
+}
