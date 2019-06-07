@@ -13,6 +13,12 @@
     padding-bottom: 80px;
 }
 
+.header_photo {
+  float: right;
+  max-width: 100%;
+  height: auto;
+}
+
 /* .header_title {
   padding: 60px;
   text-align: left;
@@ -104,6 +110,7 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-align: center;
 }
+
 p {
     font-size: 1.3em;
     line-height: 1.4em;
@@ -116,6 +123,11 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: 1em;
     color: #000000;
+}
+
+.dark {
+    background-color: #202631;
+    color: #fff;
 }
 
 ul.posts {
