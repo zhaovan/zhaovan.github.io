@@ -325,6 +325,17 @@ ul.posts li {
     margin-bottom: 10px;
 }
 
+.resume__item-links {
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.font-secondary, .about h3, .resume__location, .resume__item-links, .header__affiliation {
+    font-family: "Larsseit",-apple-system,BlinkMacSystemFont,"Futura",sans-serif;
+    text-transform: uppercase;
+    font-size: 90%;
+}
+
 dl.inline-flex {
   display: flex;
   flex-flow: row;
