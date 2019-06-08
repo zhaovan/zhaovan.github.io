@@ -65,6 +65,7 @@ div {
 .header_photo {
   max-width: 100%;
   height: auto;
+  padding-left: 150px;
 }
 
 .header_email {
@@ -100,11 +101,15 @@ div {
     margin: 20px 0;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
 }
 
 .header__quote {
   font-style: italic;
+  text-align: center;
+}
+
+.header_links {
+  text-align: left;
 }
 
 
@@ -135,7 +140,7 @@ ul.header_links li {
 }
 
 .header .container {
-  display: inline-block;
+  display: inline-flex;
 }
 
 nav ul, footer ul {
@@ -378,7 +383,7 @@ dl.inline-flex dd {
 }
 
 #news {
-  background-color: #C0FFA0
+  background-color: #9BD4F5;
 }
 
 .news__item-description {
@@ -398,12 +403,4 @@ dl.inline-flex dd {
   font-weight: 600;
   font-size: 0.9rem;
   display: block;
-}
-
-dt.news__item-date p {
-  text-align: right;
-}
-
-dd.news__item-description {
-  margin-left: 0px;
 }
