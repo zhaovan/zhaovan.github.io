@@ -221,6 +221,7 @@ section p {
 footer {
     text-align: center;
     font-size: 0.9rem;
+    height: auto;
 }
 
 .dark {
