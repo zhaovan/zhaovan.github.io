@@ -398,5 +398,12 @@ dl.inline-flex dd {
   font-weight: 600;
   font-size: 0.9rem;
   display: block;
+}
+
+dt.news__item-date p {
   text-align: right;
+}
+
+dd.news__item-description {
+  margin-left: 0px;
 }
