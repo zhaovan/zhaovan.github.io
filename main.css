@@ -135,6 +135,10 @@ ul.header_links li {
   margin: 5px;
 }
 
+.header .container {
+  display: inline-block;
+}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
