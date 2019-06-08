@@ -366,7 +366,6 @@ dl.inline-flex {
 }
 
 dl.inline-flex dt {
-  flex: 0 0 50%;
   text-overflow: ellipsis;
   width: 33%;
   overflow: hidden;
@@ -400,4 +399,8 @@ dl.inline-flex dd {
 
 .news__item-date {
   font-style: italic;
+}
+
+.news-item {
+  flex-flow: row;
 }
