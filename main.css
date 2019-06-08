@@ -404,3 +404,7 @@ dl.inline-flex dd {
   font-size: 0.9rem;
   display: block;
 }
+
+dt.news__item-date p {
+  text-align: right;
+}
