@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    display: inline-block;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -66,7 +67,6 @@ div {
 .header_photo {
   max-width: 100%;
   height: auto;
-  display: inline-block;
 }
 
 .header_email {
