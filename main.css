@@ -313,25 +313,18 @@ ul.posts li {
     width: 70%;
 }
 
-@media (min-width: 640px)
-.resume__item-description, .resume__item-summary {
-    margin-bottom: 60px;
-}
 
 .resume__item-description, .resume__item-summary {
     display: inline-block;
     vertical-align: top;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
-@media (min-width: 500px)
-.resume__title {
-    margin-bottom: 5px;
-}
 
 .resume__title {
     font-weight: bold;
     font-size: 1.2rem;
+    margin-bottom: 5px;
 }
 
 .resume__location {
