@@ -154,10 +154,6 @@ nav ul li, footer ul li {
 .container {
     max-width: 860px;
     margin: 0 auto;
-}
-
-@media (min-width: 500px)
-.container {
     padding: 40px;
 }
 
@@ -222,7 +218,6 @@ section p {
 footer {
     text-align: center;
     font-size: 0.9rem;
-    height: 500px;
 }
 
 .dark {
