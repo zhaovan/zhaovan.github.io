@@ -240,7 +240,7 @@ footer {
   margin-right: 350px;
 }
 
-footer.container {
+#end {
   display: inline-flex;
 }
 
