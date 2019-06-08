@@ -396,6 +396,8 @@ dl.inline-flex dd {
 .news__item-date, .news__item-description {
     display: inline-block;
     vertical-align: top;
-    font-style: italic;
-    text-align: center;
+}
+
+.news__item-date {
+  font-style: italic;
 }
