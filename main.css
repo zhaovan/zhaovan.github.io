@@ -31,7 +31,6 @@ footer, header, hgroup, menu, nav, section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    display: inline-block;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
