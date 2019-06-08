@@ -66,6 +66,7 @@ div {
 .header_photo {
   max-width: 100%;
   height: auto;
+  display: inline-block;
 }
 
 .header_email {
