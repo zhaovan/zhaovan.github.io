@@ -386,10 +386,6 @@ dl.inline-flex dd {
     margin-left: 0px;
 }
 
-.news__item-description .p {
-  text-align: left;
-  margin-bottom: 0;
-}
 
 .news__item-date, .news__item-description {
     display: inline-block;
@@ -402,9 +398,5 @@ dl.inline-flex dd {
   font-weight: 600;
   font-size: 0.9rem;
   display: block;
-}
-
-.news__item-date .p {
   text-align: right;
-  margin-bottom: 0;
 }
