@@ -238,6 +238,11 @@ footer {
   color: white;
   z-index: 1;
   text-align: center;
+  margin-right: 350px;
+}
+
+footer.container {
+  display: inline-flex;
 }
 
 .icon {
@@ -254,7 +259,6 @@ ul.posts li {
 
 #skills {
     height: 100%;
-    margin-top: 70px;
     background-color: #edfaff;
     width: 100%;
 }
