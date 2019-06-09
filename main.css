@@ -354,13 +354,15 @@ dl.inline-flex dd {
   overflow: hidden;
 }
 
+/* Section for news descriptions */
+
 @media (min-width: 640px)
 .news__item-description {
     width: 85%;
 }
 
 #news {
-  background-color: #9BD4F5;
+  background-color: #f9fbff;
 }
 
 .news__item-description {
