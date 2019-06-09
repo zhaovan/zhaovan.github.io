@@ -155,7 +155,7 @@ ul.posts li {
     text-align: right;
 }
 
-.header_affiliation {
+.header_affiliation, .header_pronouns {
     margin-bottom: 0;
     letter-spacing: 2px;
     text-align: right;
@@ -376,7 +376,6 @@ dl.inline-flex dd {
     margin-left: 0px;
 }
 
-
 .news__item-date, .news__item-description {
     display: inline-block;
     vertical-align: top;
@@ -392,6 +391,15 @@ dl.inline-flex dd {
 
 dt.news__item-date p {
   text-align: right;
+}
+
+.c-timeline__point {
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    left: -31px;
+    top: 3px;
+    border-radius: 50%;
 }
 
 /* Things that I needed to include in the footer section! */
