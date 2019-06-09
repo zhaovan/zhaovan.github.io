@@ -83,6 +83,32 @@ a:hover {
     background-color: #94d8ef;
 }
 
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    text-align: center;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.4em;
+    color: #333;
+    text-align: left;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+ul.posts {
+    margin: 20px auto 40px;
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
 
 /* CSS that deals with header specific entries. */
 
@@ -210,47 +236,7 @@ a:hover {
     z-index: -1;
 }
 
-footer {
-    text-align: center;
-    font-size: 0.9rem;
-}
-
-.dark {
-    background-color: #202631;
-    color: #fff;
-}
-
-.footer__links {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-.footer-end {
-  color: white;
-  z-index: 1;
-  text-align: center;
-  margin-right: 350px;
-}
-
-#end div {
-  display:inline-flex;
-}
-
-.icon {
-  top: 1px;
-}
-ul.posts {
-    margin: 20px auto 40px;
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
+/* CSS section thats for skills because I needed to specifcy things lmao */
 
 #skills {
     height: 100%;
@@ -398,4 +384,36 @@ dl.inline-flex dd {
 
 dt.news__item-date p {
   text-align: right;
+}
+
+/* Things that I needed to include in the footer section! */
+
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.dark {
+    background-color: #202631;
+    color: #fff;
+}
+
+.footer__links {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.footer-end {
+  color: white;
+  z-index: 1;
+  text-align: center;
+  margin-right: 300px;
+}
+
+#end div {
+  display:inline-flex;
 }
