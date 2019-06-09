@@ -1,3 +1,6 @@
+/* Generic CSS if none of the elements were specifically rendered in a certain
+way */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -26,6 +29,62 @@ footer, header, hgroup, menu, nav, section {
     display: block;
 }
 
+div {
+    display: block;
+}
+
+body {
+    font-family: "Leitura News","Palatino","Georgia","Times New Roman",serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list-inline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.list-unstyled {
+    list-style-type: none;
+}
+
+ul.header_links li {
+  display: inline;
+  margin: 5px;
+}
+
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: #c3eaf7;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: #94d8ef;
+}
+
+
+/* CSS that deals with header specific entries. */
 
 .header {
     display: -webkit-box;
@@ -58,10 +117,6 @@ footer, header, hgroup, menu, nav, section {
     align-items: flex-start;
 }
 
-div {
-    display: block;
-}
-
 .header_photo {
   max-width: 100%;
   height: auto;
@@ -76,13 +131,6 @@ div {
 .header__affiliation {
     margin-bottom: 0;
     letter-spacing: 2px;
-}
-
-.no-highlight {
-  background-color:inherit;
-}
-.no-highlight:hover{
-  text-decoration: none;
 }
 
 @media (min-width: 500px)
@@ -112,48 +160,20 @@ div {
   text-align: left;
 }
 
-
-body {
-    font-family: "Leitura News","Palatino","Georgia","Times New Roman",serif;
-    font-size: 16px;
-    line-height: 1.6;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.list-inline {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-}
-
-.list-unstyled {
-    list-style-type: none;
-}
-
-ul.header_links li {
-  display: inline;
-  margin: 5px;
-}
-
 .header .container {
   display: inline-flex;
 }
 
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+/* Set of css instructions to prevent highlight on certain elements on the page */
+
+.no-highlight {
+  background-color:inherit;
+}
+.no-highlight:hover{
+  text-decoration: none;
 }
 
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
+/* CSS for the container that each section is built in */
 
 .container {
     max-width: 860px;
@@ -164,17 +184,6 @@ nav ul li, footer ul li {
 .about {
   background-color: #ffffff;
   width: 100%;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-    background-color: #c3eaf7;
-}
-
-a:hover {
-    text-decoration: underline;
-    background-color: #94d8ef;
 }
 
 .section-title {
