@@ -152,11 +152,13 @@ ul.posts li {
 .header_email {
     font-family: "Inconsolata","Consolas",monospace;
     margin: 10px 0;
+    text-align: right;
 }
 
 .header__affiliation {
     margin-bottom: 0;
     letter-spacing: 2px;
+    text-align: right;
 }
 
 @media (min-width: 500px)
@@ -169,7 +171,6 @@ ul.posts li {
 .header__nav {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin: 20px 0;
@@ -183,7 +184,7 @@ ul.posts li {
 }
 
 .header_links {
-  text-align: left;
+  text-align: right;
 }
 
 .header .container {
