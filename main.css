@@ -146,7 +146,7 @@ ul.posts li {
 .header_photo {
   max-width: 100%;
   height: auto;
-  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .header_email {
@@ -264,6 +264,8 @@ ul.posts li {
     margin-right: 12px;
 }
 
+/* Section for CSS input on projects and other elements */
+
 #projects {
   background-color: #eaf1f7
 }
@@ -362,7 +364,7 @@ dl.inline-flex dd {
 }
 
 #news {
-  background-color: #f9fbff;
+  background-color: #f9f8e8;
 }
 
 .news__item-description {
