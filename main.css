@@ -210,24 +210,6 @@ a:hover {
     z-index: -1;
 }
 
-
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    text-align: center;
-}
-
-p {
-    font-size: 1em;
-    line-height: 1.4em;
-    color: #333;
-    text-align: left;
-}
-
-section p {
-    margin-bottom: 30px;
-}
-
 footer {
     text-align: center;
     font-size: 0.9rem;
