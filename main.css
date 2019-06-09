@@ -296,6 +296,7 @@ ul.posts li {
 .resume__item-description {
     width: 70%;
     margin-left: auto;
+    padding-left: 50px;
 }
 
 
