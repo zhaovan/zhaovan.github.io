@@ -200,7 +200,8 @@ ul.posts li {
 .rectangle {
   height: 150px;
   width: 100px;
-  background-color:
+  background-color: red;
+  z-index: -1;
 }
 
 /* Set of css instructions to prevent highlight on certain elements on the page */
