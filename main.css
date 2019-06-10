@@ -88,14 +88,15 @@ a:hover {
 
 h1 {
     font-size: 3em;
-    font-family: cursive, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
     min-height: 76.8px;
 }
 
 h1 a {
   background-color: inherit;
+  font-weight: bold;
 }
+
 h1 a:hover {
   text-decoration: none;
   background-color: inherit;
