@@ -200,6 +200,30 @@ ul.posts li {
   display: inline-flex;
 }
 
+.header_photo_wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -20%;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    height: 150px;
+    width: 150px;
+    background-color: #bcebd4;
+    z-index: -1;
+}
+
+.header_photo_wrapper::after {
+    content: '';
+    position: absolute;
+    top: 4%;
+    left: 6%;
+    background-color: #f5c0a2;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
 /* Set of css instructions to prevent highlight on certain elements on the page */
 
 .no-highlight {
