@@ -372,13 +372,13 @@ dl.inline-flex dd {
 }
 
 .news__item-description {
-    margin-bottom: 10px;
     margin-left: 0px;
 }
 
 .news__item-date, .news__item-description {
     display: inline-block;
     vertical-align: top;
+    border-left: solid;
 }
 
 .news__item-date {
