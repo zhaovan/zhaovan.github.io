@@ -236,7 +236,7 @@ ul.posts li {
 
 .section-title::after {
     content: '';
-    background-color: #99ffff;;
+    background-color: #99ffff;
     height: 5px;
     position: absolute;
     top: 50%;
