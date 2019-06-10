@@ -295,6 +295,11 @@ ul.posts li {
   color: #b27300;
 }
 
+.resume__tag.design {
+  background-color: #bacbf4;
+  color: #adc2f7;
+}
+
 .resume__item-description {
     width: 70%;
     margin-left: auto;
