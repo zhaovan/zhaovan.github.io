@@ -200,7 +200,7 @@ ul.posts li {
   display: inline-flex;
 }
 
-.header_photo_wrapper::before {
+.rotate_square {
     content: '';
     position: absolute;
     top: 0;
@@ -213,7 +213,7 @@ ul.posts li {
     z-index: -1;
 }
 
-.header_photo_wrapper::after {
+.rectangle {
     content: '';
     position: absolute;
     top: 4%;
