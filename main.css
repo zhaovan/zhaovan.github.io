@@ -74,6 +74,7 @@ nav ul li, footer ul li {
 
 a {
     text-decoration: none;
+    transition: all .15s linear;
     color: black;
     background-color: #c3eaf7;
 }
@@ -198,6 +199,7 @@ ul.posts li {
 }
 .no-highlight:hover{
   text-decoration: none;
+  background-color: none;
 }
 
 /* CSS for the container that each section is built in */
