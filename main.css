@@ -74,7 +74,7 @@ nav ul li, footer ul li {
 
 a {
     text-decoration: none;
-    transition: background-color .15s;
+    transition: background-color .35s;
     color: black;
     background-color: #c3eaf7;
 }
@@ -84,16 +84,20 @@ a:hover {
     background-color: #94d8ef;
 }
 
-.wrap {
-  background-color: none;
-  text-decoration: none;
-}
 
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-align: center;
     min-height: 76.8px;
+}
+
+h1 a {
+  background-color: inherit;
+}
+h1 a:hover {
+  text-decoration: none;
+  background-color: inherit;
 }
 
 p {
