@@ -84,10 +84,10 @@ a:hover {
     background-color: #94d8ef;
 }
 
-.title {
+h1.title {
   background-color: inherit;
 }
-.title:hover{
+h1.title:hover{
   text-decoration: none;
   background-color: inherit;
 }
