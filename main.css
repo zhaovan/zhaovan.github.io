@@ -197,28 +197,10 @@ ul.posts li {
   display: inline-flex;
 }
 
-.rotate_square {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -20%;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    height: 150px;
-    width: 150px;
-    background-color: #bcebd4;
-    z-index: -1;
-}
-
 .rectangle {
-    content: '';
-    position: absolute;
-    top: 4%;
-    left: 6%;
-    background-color: #f5c0a2;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+  height: 150px;
+  width: 100px;
+  background-color:
 }
 
 /* Set of css instructions to prevent highlight on certain elements on the page */
@@ -266,6 +248,17 @@ ul.posts li {
     left: 0;
     width: 100%;
     z-index: -1;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
 
 /* CSS section thats for skills because I needed to specifcy things lmao */
