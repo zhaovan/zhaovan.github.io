@@ -203,6 +203,11 @@ ul.posts li {
   display: inline-flex;
 }
 
+@media only screen and (max-width: 600px) {
+  .header .container {
+    display: block;
+  }
+
 .rectangle {
   height: 150px;
   width: 100px;
