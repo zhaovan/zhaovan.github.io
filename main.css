@@ -455,7 +455,8 @@ footer {
   color: white;
   z-index: 1;
   text-align: center;
-  margin-right: 300px;
+  margin-right: 100px;
+  padding-top: inherit;
 }
 
 #end div {
