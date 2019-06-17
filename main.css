@@ -105,6 +105,7 @@ p {
     line-height: 1.4em;
     color: #333;
     text-align: left;
+    animation-name: slide-top;
 }
 
 section p {
