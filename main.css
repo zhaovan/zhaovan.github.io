@@ -485,7 +485,7 @@ love you a lot and hope you have a great day <3  */
     padding-right: 0px;
   }
 
-  .header__affiliation , .header_pronouns, .header_email, .header_links {
+  .header_affiliation , .header_pronouns, .header_email, .header_links {
     text-align: center;
   }
 
