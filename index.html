@@ -25,6 +25,13 @@
 		<script type="text/javascript" src="index.js"></script>
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	</head>
+	<div class="spinner-wrapper">
+		<div class="spinner">
+			<div class="cube1"></div>
+  		<div class="cube2"></div>
+		</div>
+	</div>
+
 		<header class = "header">
 			<div class="container slide-top">
 				<div class = "header_photo">
@@ -330,5 +337,18 @@
  	<script>
 	 AOS.init();
  	</script>
+	<script>
+	$(document).ready(function() {
+		//Preloader
+		$(window).on("load", function() {
+			let preloaderFadeOutTime = 500;
+			function hidePreloader() {
+				var preloader = $('.spinner-wrapper');
+				preloader.fadeOut(preloaderFadeOutTime);
+			}
+			hidePreloader();
+		});
+	});
+	</script>
 	</body>
 </html>
