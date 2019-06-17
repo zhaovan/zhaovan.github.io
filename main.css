@@ -669,28 +669,13 @@ love you a lot and hope you have a great day <3  */
 }
 
 .spinner {
-  position: absolute;
-  top: 48%;
-  left: 48%;
-  width: 40px;
-  height: 40px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
 }
 
-.cube1, .cube2 {
-  background-color: #333;
-  width: 15px;
-  height: 15px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  -webkit-animation: sk-cubemove 1.8s infinite ease-in-out;
-  animation: sk-cubemove 1.8s infinite ease-in-out;
-}
-
-.cube2 {
-  -webkit-animation-delay: -0.9s;
-  animation-delay: -0.9s;
-}
 
 @-webkit-keyframes sk-cubemove {
   25% { -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5) }
@@ -724,6 +709,6 @@ love you a lot and hope you have a great day <3  */
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ff6347;
+  background-color: #A9A9A9;
   z-index: 10;
 }
