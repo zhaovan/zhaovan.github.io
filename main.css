@@ -205,8 +205,7 @@ ul.posts li {
 .header_photo_wrapper::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: -20%;
+    left: -2%;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     height: 150px;
