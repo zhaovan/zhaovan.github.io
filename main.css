@@ -671,26 +671,3 @@ love you a lot and hope you have a great day <3  */
             transform: translateY(0px);
   }
 }
-
-/* Another preloader? */
-#preloader {
-    position: fixed;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    background-color:#fff; /* change if the mask should have another color then white */
-    z-index:99;
-}
-
-#status {
-    width:200px;
-    height:200px;
-    position:absolute;
-    left:50%;
-    top:50%;
-    background-image:url(../img/status.gif); /* path to your loading animation */
-    background-repeat:no-repeat;
-    background-position:center;
-    margin:-100px 0 0 -100px;
-}
