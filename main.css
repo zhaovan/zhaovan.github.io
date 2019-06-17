@@ -683,7 +683,6 @@ love you a lot and hope you have a great day <3  */
   position: absolute;
   top: 0;
   left: 0;
-
   -webkit-animation: sk-cubemove 1.8s infinite ease-in-out;
   animation: sk-cubemove 1.8s infinite ease-in-out;
 }
@@ -726,5 +725,5 @@ love you a lot and hope you have a great day <3  */
   right: 0;
   bottom: 0;
   background-color: #ff6347;
-  z-index: 999999;
+  z-index: 10;
 }
