@@ -496,10 +496,6 @@ footer {
   clear:both;
 }
 
-.content{
-  padding-bottom:20px;
-}
-
 .timeline ul li:nth-child(odd):before {
   content:'';
   position:absolute;
@@ -552,6 +548,7 @@ footer {
   border-radius:18px;
   box-shadow:0 0 0 3px #000080;
 }
+
 .timeline ul li:nth-child(even) .time
 {
   position:absolute;
