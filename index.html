@@ -26,7 +26,7 @@
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	</head>
 	<body>
-		<div class="spinner-wrapper">
+		<div class="spinner-wrapper" id="preloader">
 			<div class="spinner">
 				<div class="cube1"></div>
 	  		<div class="cube2"></div>
@@ -340,15 +340,12 @@
 	 AOS.init();
  	</script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
-	$(function() {
-		$(window).on("load", function() {
-			var preloaderFadeOutTime = 500;
-			function hidePreloader() {
-				var preloader = $('.spinner-wrapper');
-				preloader.fadeOut(preloaderFadeOutTime);
-			}
-			hidePreloader();
-		});
+	$(function(){ // this replaces document.ready
+  $(window).on("load", function(){
+    $('#preloader').fadeOut('slow', function() {
+      $(this).remove();
+    	});
+  	});
 	});
 	</script>
 	</body>
