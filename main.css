@@ -456,11 +456,15 @@ footer {
   z-index: 1;
   text-align: center;
   margin-right: 100px;
-  padding-top: inherit;
+  padding-top: 50px;
 }
 
 #end div {
   display:inline-flex;
+}
+
+footer .container {
+  padding: none;
 }
 
 /* Timeline? */
