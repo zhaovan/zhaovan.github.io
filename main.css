@@ -80,7 +80,6 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
     background-color: #94d8ef;
 }
 
@@ -470,21 +469,23 @@ footer {
 .timeline{
   position:relative;
   padding:40px 0;
-  width:1000px;
   box-sizing:border-box;
 }
+
 .timeline:before{
   content:'';
   position:absolute;
   left:50%;
   width:2px;
   height:100%;
-  background:#c5c5c5;
+  background:#000080;
 }
+
 .timeline ul{
   padding:0;
   margin:0;
 }
+
 .timeline ul li{
   list-style:none;
   position:relative;
@@ -492,21 +493,24 @@ footer {
   padding:20px 40px;
   box-sizing:border-box;
 }
+
 .timeline ul li:nth-child(odd){
   float:left;
   text-align:right;
   clear:both;
 }
+
 .timeline ul li:nth-child(even){
   float:right;
   text-align:left;
   clear:both;
 }
+
 .content{
   padding-bottom:20px;
 }
-.timeline ul li:nth-child(odd):before
-{
+
+.timeline ul li:nth-child(odd):before {
   content:'';
   position:absolute;
   width:10px;
@@ -517,6 +521,7 @@ footer {
   border-radius:50%;
   box-shadow:0 0 0 3px rgba(233,33,99,0.2);
 }
+
 .timeline ul li:nth-child(even):before
 {
   content:'';
@@ -554,7 +559,7 @@ footer {
   background:rgba(233,33,99,1);
   color:#fff;
   border-radius:18px;
-  box-shadow:0 0 0 3px rgba(233,33,99,0.3);
+  box-shadow:0 0 0 3px #000080;
 }
 .timeline ul li:nth-child(even) .time
 {
@@ -566,7 +571,7 @@ footer {
   background:rgba(233,33,99,1);
   color:#fff;
   border-radius:18px;
-  box-shadow:0 0 0 3px rgba(233,33,99,0.3);
+  box-shadow:0 0 0 3px #000080;
 }
 @media(max-width:1000px)
 {
