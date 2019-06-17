@@ -339,5 +339,18 @@
  	<script>
 	 AOS.init();
  	</script>
+	<script>
+	$(document).ready(function() {
+		//Preloader
+		$(window).on("load", function() {
+			let preloaderFadeOutTime = 500;
+			function hidePreloader() {
+				var preloader = $('.spinner-wrapper');
+				preloader.fadeOut(preloaderFadeOutTime);
+			}
+			hidePreloader();
+		});
+	});
+</script>
 	</body>
 </html>
