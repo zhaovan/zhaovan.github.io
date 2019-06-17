@@ -164,13 +164,13 @@ ul.posts li {
 .header_email {
     font-family: "Inconsolata","Consolas",monospace;
     margin: 10px 0;
-    text-align: right;
+    text-align: center;
 }
 
 .header_affiliation, .header_pronouns {
     margin-bottom: 0;
     letter-spacing: 2px;
-    text-align: right;
+    text-align: center;
 }
 
 @media (min-width: 500px)
@@ -196,18 +196,11 @@ ul.posts li {
 }
 
 .header_links {
-  text-align: right;
+  text-align: center;
 }
 
 .header .container {
   display: inline-flex;
-}
-
-.rectangle {
-  height: 150px;
-  width: 100px;
-  background-color: red;
-  z-index: -1;
 }
 
 /* Set of css instructions to prevent highlight on certain elements on the page */
@@ -469,6 +462,40 @@ footer {
 
 #end div {
   display:inline-flex;
+}
+
+/* Timeline? */
+
+.right-content, .left-content {
+	float:left;
+	display:block;
+	width:40%;
+	padding:1% 2%;
+}
+.left-content {
+	border-right:5px dotted #666;
+	text-align:right;
+}
+.left-content p {
+	margin:150px 0 0;
+}
+
+.right-content p {
+	margin:80px 0 150px;
+}
+
+.container p {
+-webkit-transition: all 0.7s ease-in-out;
+-moz-transition: all 0.7 ease-in-out;
+-ms-transition: all 0.7s ease-in-out;
+-o-transition: all 0.7s ease-in-out;
+transition: all 0.7s ease-in-out;
+}
+.left-content .more-padding {
+  padding-right:100px;
+}
+.right-content .more-padding {
+  padding-left:100px;
 }
 
 
