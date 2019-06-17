@@ -339,15 +339,10 @@
  	<script>
 	 AOS.init();
  	</script>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
-	$(function(){ // this replaces document.ready
-  $(window).on("load", function(){
-		console.log("Window Loaded!")
-    $('#preloader').fadeOut('slow', function() {
-      $(this).remove();
-    	});
+	<script language="javascript" type="text/javascript">
+     $(window).load(function() {
+     	$('#preloader').hide();
   	});
-	});
 	</script>
 	</body>
 </html>
