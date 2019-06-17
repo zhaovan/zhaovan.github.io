@@ -464,7 +464,7 @@ footer {
 }
 
 footer .container {
-  padding: none;
+  padding: 0px;
 }
 
 /* Timeline? */
