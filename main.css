@@ -281,11 +281,6 @@ ul.posts li {
     width: 100%;
 }
 
-#skills p {
-    color: rgb(39, 39, 39);
-    font-size: 25px;
-}
-
 
 #skills span {
     display: block;
@@ -293,6 +288,7 @@ ul.posts li {
     padding-bottom: 15px;
     text-decoration: underline;
     text-decoration-color: #333231;
+    font-size: 25px;
 }
 
 #skills i {
