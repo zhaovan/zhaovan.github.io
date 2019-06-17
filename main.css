@@ -203,6 +203,19 @@ ul.posts li {
   display: inline-flex;
 }
 
+.header_photo_wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -20%;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    height: 150px;
+    width: 150px;
+    background-color: #bcebd4;
+    z-index: -1;
+}
+
 /* Set of css instructions to prevent highlight on certain elements on the page */
 
 .no-highlight {
