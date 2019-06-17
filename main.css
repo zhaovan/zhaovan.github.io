@@ -470,3 +470,34 @@ footer {
 #end div {
   display:inline-flex;
 }
+
+
+/* Here's a bunch of code to make the page responsive. Also why is this over 450
+lines of code (literally CSS is the worst). If you're reading this, know that I
+love you a lot and hope you have a great day <3  */
+
+@media only screen and (max-width: 600px) {
+  .header .container {
+    display: block;
+  }
+
+  .header_photo {
+    padding-right: 0px;
+  }
+
+  .header__affiliation , .header_pronouns, .header_email, .header_links {
+    text-align: center;
+  }
+
+  .footer-end {
+    margin-right: 20px;
+  }
+
+  #end div {
+    display: block;
+  }
+
+  dl.inline-flex dt {
+    overflow: visible;
+  }
+}
