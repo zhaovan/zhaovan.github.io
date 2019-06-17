@@ -341,8 +341,10 @@
  	</script>
 	<script language="javascript" type="text/javascript">
      $(window).on("load", function() {
-     	$('#preloader').hide();
-  	});
+     	$('#preloader').fadeOut('slow', function() {
+      	$(this).remove();
+    });
+   }, 1500);
 	</script>
 	</body>
 </html>
