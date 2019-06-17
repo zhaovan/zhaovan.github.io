@@ -634,7 +634,8 @@ love you a lot and hope you have a great day <3  */
   }
 
   .footer-end {
-    margin-right: 20px;
+    margin-right: 0px;
+    padding-top: 0px;
   }
 
   #end div {
@@ -643,6 +644,10 @@ love you a lot and hope you have a great day <3  */
 
   dl.inline-flex dt {
     overflow: visible;
+  }
+
+  footer .container {
+    padding: 40px;
   }
 }
 
