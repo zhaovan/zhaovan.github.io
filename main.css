@@ -422,15 +422,6 @@ dt.news__item-date p {
   text-align: right;
 }
 
-.c-timeline__point {
-    height: 10px;
-    width: 10px;
-    position: absolute;
-    left: -31px;
-    top: 3px;
-    border-radius: 50%;
-}
-
 /* Things that I needed to include in the footer section! */
 
 footer {
@@ -466,7 +457,7 @@ footer {
 /* Timeline? */
 
 
-.timeline{
+.timeline {
   position:relative;
   padding:40px 0;
   box-sizing:border-box;
@@ -537,7 +528,7 @@ footer {
 .timeline ul li h3{
   padding:0;
   margin:0;
-  color:rgba(233,33,99,1);
+  color: #1D8ECE;
   font-weight:600;
 }
 .timeline ul li p{
@@ -556,7 +547,7 @@ footer {
   right:-165px;
   margin:0;
   padding:8px 16px;
-  background:rgba(233,33,99,1);
+  background: #1D8ECE;
   color:#fff;
   border-radius:18px;
   box-shadow:0 0 0 3px #000080;
@@ -568,7 +559,7 @@ footer {
   left:-165px;
   margin:0;
   padding:8px 16px;
-  background:rgba(233,33,99,1);
+  background: #1D8ECE;
   color:#fff;
   border-radius:18px;
   box-shadow:0 0 0 3px #000080;
