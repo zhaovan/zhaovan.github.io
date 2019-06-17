@@ -529,6 +529,7 @@ footer {
   margin:0;
   color: #1D8ECE;
   font-weight:600;
+  font-style: italic;
 }
 .timeline ul li p{
   margin:10px 0 0;
