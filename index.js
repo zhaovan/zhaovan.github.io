@@ -57,3 +57,16 @@ var TxtType = function(el, toRotate, period) {
 
 
 // Literally A preloader
+
+const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+
+function switchTheme(e) {
+    if (e.target.checked) {
+        document.querySelector('body').classList.add('dark');
+    }
+    else {
+        document.querySelector('body').classList.remove('dark');
+    }
+}
+
+toggleSwitch.addEventListener('change', switchTheme, false);
