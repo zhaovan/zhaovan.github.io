@@ -54,15 +54,3 @@ var TxtType = function(el, toRotate, period) {
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #99ffff background-color: none}";
         document.body.appendChild(css);
     };
-
-
-// Literally A preloader
-
-function switchTheme() {
-    if (this.checked) {
-        document.querySelector('body').classList.add('dark');
-    }
-    else {
-        document.querySelector('body').classList.remove('dark');
-    }
-}
