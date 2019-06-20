@@ -699,6 +699,6 @@ love you a lot and hope you have a great day <3  */
   z-index: 10;
 }
 
-.fa {
-  margin-right: 10px;
+.fa, .fas {
+  margin-right: 5px;
 }
