@@ -186,7 +186,6 @@ ul.posts li {
     display: -ms-flexbox;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin: 20px 0;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
 }
@@ -198,6 +197,7 @@ ul.posts li {
 
 .header_links {
   text-align: center;
+  padding-top: 10px;
 }
 
 .header .container {
