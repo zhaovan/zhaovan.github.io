@@ -368,6 +368,10 @@ ul.posts li {
     font-size: 90%;
 }
 
+.resume__link--code, .resume__link--paper {
+  margin-left: 5px;
+}
+
 .resume__item-links>li:not(:last-of-type) {
     margin-right: 10px;
 }
@@ -697,8 +701,4 @@ love you a lot and hope you have a great day <3  */
   bottom: 0;
   background-color: #FFFFFF;
   z-index: 10;
-}
-
-.fa, .fas {
-  margin-right: 5px;
 }
