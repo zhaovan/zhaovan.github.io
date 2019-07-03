@@ -369,7 +369,7 @@ ul.posts li {
 }
 
 .resume__link--code, .resume__link--paper {
-  margin-left: 5px;
+  margin-left: 7.5px;
 }
 
 .resume__item-links>li:not(:last-of-type) {
