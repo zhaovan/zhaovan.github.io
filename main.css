@@ -289,13 +289,18 @@ ul.posts li {
     padding-bottom: 15px;
     text-decoration: underline;
     text-decoration-color: #333231;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 #skills i {
     display: inline;
     font-size: 75px;
     margin-right: 12px;
+}
+
+.skill-img {
+  position: relative;
+  top: 8px;
 }
 
 /* Section for CSS input on projects and other elements */
