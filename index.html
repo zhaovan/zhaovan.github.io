@@ -329,7 +329,6 @@
             </div>
         </div>
     </div>
-		<a href="#" id="scroll" style="display: none;"><span></span></a>
 	</main>
 	<footer class="footer dark" id="end">
 		<div class="container">
@@ -365,23 +364,6 @@
      	$('#preloader').delay(3000).fadeOut('slow', function() {
       	$(this).remove();
     });
-	});
-	</script>
-	<script language="javascript" type="text/javascript">
-	$(window).scroll(function() {
-		var height = $(window).scrollTop();
-		if (height > 100) {
-				$('#scroll').fadeIn();
-		} else {
-				$('#scroll').fadeOut();
-		}
-	});
-	$(document).ready(function() {
-		$("#scroll").click(function(event) {
-				event.preventDefault();
-				$("html, body").animate({ scrollTop: 0 }, "slow");
-				return false;
-		});
 	});
 	</script>
 	</body>
