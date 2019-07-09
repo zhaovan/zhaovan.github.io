@@ -366,21 +366,23 @@
       	$(this).remove();
     });
 	});
+	</script>
+	<script language="javascript" type="text/javascript">
 	$(window).scroll(function() {
-    var height = $(window).scrollTop();
-    if (height > 100) {
-        $('#scroll').fadeIn();
-    } else {
-        $('#scroll').fadeOut();
-    }
-});
-$(document).ready(function() {
-    $("#scroll").click(function(event) {
-        event.preventDefault();
-        $("html, body").animate({ scrollTop: 0 }, "slow");
-        return false;
-    });
-});
+		var height = $(window).scrollTop();
+		if (height > 100) {
+				$('#scroll').fadeIn();
+		} else {
+				$('#scroll').fadeOut();
+		}
+	});
+	$(document).ready(function() {
+		$("#scroll").click(function(event) {
+				event.preventDefault();
+				$("html, body").animate({ scrollTop: 0 }, "slow");
+				return false;
+		});
+	});
 	</script>
 	</body>
 </html>
