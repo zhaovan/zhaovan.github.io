@@ -336,6 +336,11 @@ ul.posts li {
   color: #475e99;
 }
 
+.resume__tag.entrepreneurship {
+  background-color: #a3375a;
+  color: #ebfaf2;
+}
+
 .resume__item-description {
     width: 70%;
     margin-left: auto;
