@@ -1,3 +1,6 @@
+// A function that types out the words and makes it seem like the user
+// is watching someone else type the words
+
 var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
         this.el = el;
