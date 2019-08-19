@@ -315,10 +315,6 @@ ul.posts li {
   font-weight: bold
 }
 
-.current {
-  background-color: ##4a89ff
-}
-
 .resume__tag {
     font-family: "Inconsolata","Consolas",monospace;
     font-size: 0.9rem;
