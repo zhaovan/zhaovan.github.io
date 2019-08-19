@@ -309,6 +309,16 @@ ul.posts li {
   background-color: #eaf1f7
 }
 
+.projects-head {
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold
+}
+
+.current {
+  background-color: ##4a89ff
+}
+
 .resume__tag {
     font-family: "Inconsolata","Consolas",monospace;
     font-size: 0.9rem;
@@ -346,7 +356,6 @@ ul.posts li {
     margin-left: auto;
     padding-left: 50px;
 }
-
 
 .resume__item-description, .resume__item-summary {
     display: inline-block;
