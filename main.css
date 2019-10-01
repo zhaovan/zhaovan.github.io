@@ -383,7 +383,7 @@ ul.posts li {
     font-size: 90%;
 }
 
-.resume__link--code, .resume__link--paper {
+.resume__link--code, .resume__link--paper, .resume__link--video {
   margin-left: 7.5px;
 }
 
