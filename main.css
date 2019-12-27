@@ -1,42 +1,119 @@
 /* Generic CSS if none of the elements were specifically rendered in a certain
 way */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-    display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 
 div {
-    display: block;
+  display: block;
 }
 
 body {
-    font-family: "Leitura News","Palatino","Georgia","Times New Roman",serif;
-    font-size: 16px;
-    line-height: 1.6;
+  font-family: "Leitura News", "Palatino", "Georgia", "Times New Roman", serif;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 ul {
@@ -46,13 +123,13 @@ ul {
 }
 
 .list-inline {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .list-unstyled {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 ul.header_links li {
@@ -60,35 +137,36 @@ ul.header_links li {
   margin: 5px;
 }
 
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+nav ul,
+footer ul {
+  font-family: "Helvetica", "Arial", "Sans-Serif";
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
 }
 
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+nav ul li,
+footer ul li {
+  display: inline;
+  margin-right: 20px;
 }
 
 a {
-    text-decoration: none;
-    transition: background-color .35s;
-    color: black;
-    background-color: #c3eaf7;
+  text-decoration: none;
+  transition: background-color 0.35s;
+  color: black;
+  background-color: #c3eaf7;
 }
 
 a:hover {
-    background-color: #94d8ef;
+  background-color: #94d8ef;
 }
 
-
 h1 {
-    font-size: 3em;
-    text-align: center;
-    min-height: 76.8px;
-    font-family: 'Merienda', cursive;
+  font-size: 3em;
+  text-align: center;
+  min-height: 76.8px;
+  font-family: "Merienda", cursive;
 }
 
 h1 a {
@@ -102,57 +180,55 @@ h1 a:hover {
 }
 
 p {
-    font-size: 1em;
-    line-height: 1.4em;
-    color: #333;
-    text-align: left;
+  font-size: 1em;
+  line-height: 1.4em;
+  color: #333;
+  text-align: left;
 }
 
 section p {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 ul.posts {
-    margin: 20px auto 40px;
-    font-size: 1.5em;
+  margin: 20px auto 40px;
+  font-size: 1.5em;
 }
 
 ul.posts li {
-    list-style: none;
+  list-style: none;
 }
-
 
 /* CSS that deals with header specific entries. */
 
 .header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    text-align: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    background-color: #f4f4f4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f4f4f4;
 }
 
-@media (min-width: 500px)
-.header {
-    padding: 60px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    text-align: left;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
+@media (min-width: 500px) .header {
+  padding: 60px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  text-align: left;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .header_photo {
@@ -163,31 +239,31 @@ ul.posts li {
 }
 
 .header_email {
-    font-family: "Inconsolata","Consolas",monospace;
-    margin: 10px 0;
-    text-align: center;
+  font-family: "Inconsolata", "Consolas", monospace;
+  margin: 10px 0;
+  text-align: center;
 }
 
-.header_affiliation, .header_pronouns {
-    margin-bottom: 0;
-    letter-spacing: 2px;
-    text-align: center;
+.header_affiliation,
+.header_pronouns {
+  margin-bottom: 0;
+  letter-spacing: 2px;
+  text-align: center;
 }
 
-@media (min-width: 500px)
+@media (min-width: 500px) .header__nav {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
 .header__nav {
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-}
-
-.header__nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
 }
 
 .header__quote {
@@ -205,22 +281,22 @@ ul.posts li {
 }
 
 .header_photo_wrapper::before {
-    content: '';
-    position: absolute;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    height: 150px;
-    width: 150px;
-    background-color: #bcebd4;
-    z-index: -1;
+  content: "";
+  position: absolute;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  height: 150px;
+  width: 150px;
+  background-color: #bcebd4;
+  z-index: -1;
 }
 
 /* Set of css instructions to prevent highlight on certain elements on the page */
 
 .no-highlight {
-  background-color:inherit;
+  background-color: inherit;
 }
-.no-highlight:hover{
+.no-highlight:hover {
   text-decoration: none;
   background-color: none;
 }
@@ -228,9 +304,9 @@ ul.posts li {
 /* CSS for the container that each section is built in */
 
 .container {
-    max-width: 860px;
-    margin: 0 auto;
-    padding: 40px;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 40px;
 }
 
 .about {
@@ -239,27 +315,27 @@ ul.posts li {
 }
 
 .section-title {
-    font-size: 1.5rem;
-    margin: 0 auto;
-    font-weight: bold;
-    margin-bottom: 10px;
-    position: relative;
-    display: table;
-    padding: 0 10px;
-    z-index: 2;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  font-weight: bold;
+  margin-bottom: 10px;
+  position: relative;
+  display: table;
+  padding: 0 10px;
+  z-index: 2;
 }
 
 .section-title::after {
-    content: '';
-    background-color: #99ffff;
-    height: 5px;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    left: 0;
-    width: 100%;
-    z-index: -1;
+  content: "";
+  background-color: #99ffff;
+  height: 5px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+  z-index: -1;
 }
 
 .column {
@@ -277,25 +353,24 @@ ul.posts li {
 /* CSS section thats for skills because I needed to specifcy things lmao */
 
 #skills {
-    height: 100%;
-    background-color: #edfaff;
-    width: 100%;
+  height: 100%;
+  background-color: #edfaff;
+  width: 100%;
 }
 
-
 #skills span {
-    display: block;
-    padding-top: 10px;
-    padding-bottom: 15px;
-    text-decoration: underline;
-    text-decoration-color: #333231;
-    font-size: 20px;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  text-decoration: underline;
+  text-decoration-color: #333231;
+  font-size: 20px;
 }
 
 #skills i {
-    display: inline;
-    font-size: 75px;
-    margin-right: 12px;
+  display: inline;
+  font-size: 75px;
+  margin-right: 12px;
 }
 
 #skills img {
@@ -306,30 +381,30 @@ ul.posts li {
 /* Section for CSS input on projects and other elements */
 
 #projects {
-  background-color: #eaf1f7
+  background-color: #eaf1f7;
 }
 
 .projects-head {
   font-style: italic;
   text-decoration: underline;
-  font-weight: bold
+  font-weight: bold;
 }
 
 .resume__tag {
-    font-family: "Inconsolata","Consolas",monospace;
-    font-size: 0.9rem;
-    padding: 1px 4px;
-    display: inline-block;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    border-radius: 2px;
-    color: #333;
-    background-color: #eaeaea;
+  font-family: "Inconsolata", "Consolas", monospace;
+  font-size: 0.9rem;
+  padding: 1px 4px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 2px;
+  color: #333;
+  background-color: #eaeaea;
 }
 
 .resume__tag.research {
-    background-color: #f2c4b7;
-    color: #8f5a51;
+  background-color: #f2c4b7;
+  color: #8f5a51;
 }
 
 .resume__tag.classwork {
@@ -348,51 +423,59 @@ ul.posts li {
 }
 
 .resume__item-description {
-    width: 70%;
-    margin-left: auto;
-    padding-left: 50px;
+  width: 70%;
+  margin-left: auto;
+  padding-left: 50px;
 }
 
-.resume__item-description, .resume__item-summary {
-    display: inline-block;
-    vertical-align: top;
-    margin-bottom: 60px;
+.resume__item-description,
+.resume__item-summary {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 60px;
 }
-
 
 .resume__title {
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
 }
 
 .resume__location {
-    font-size: 0.8rem;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
 }
 
 .resume__item-links {
-    letter-spacing: 1px;
-    margin-top: 10px;
+  letter-spacing: 1px;
+  margin-top: 10px;
 }
 
-.font-secondary, .about h3, .resume__location, .resume__item-links, .header__affiliation {
-    font-family: "Larsseit",-apple-system,BlinkMacSystemFont,"Futura",sans-serif;
-    text-transform: uppercase;
-    font-size: 90%;
+.font-secondary,
+.about h3,
+.resume__location,
+.resume__item-links,
+.header__affiliation {
+  font-family: "Larsseit", -apple-system, BlinkMacSystemFont, "Futura",
+    sans-serif;
+  text-transform: uppercase;
+  font-size: 90%;
 }
 
-.resume__link--code, .resume__link--paper, .resume__link--video {
+.resume__link--code,
+.resume__link--paper,
+.resume__link--video,
+.resume__link--collab {
   margin-left: 7.5px;
 }
 
-.resume__item-links>li:not(:last-of-type) {
-    margin-right: 10px;
+.resume__item-links > li:not(:last-of-type) {
+  margin-right: 10px;
 }
 
 .list-inline li:not(:last-of-type) {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 /* CSS for creating a table */
@@ -411,7 +494,7 @@ dl.inline-flex dt {
 }
 
 dl.inline-flex dd {
-  flex:0 0 67%;
+  flex: 0 0 67%;
   text-align: left;
   text-overflow: ellipsis;
   overflow: hidden;
@@ -419,9 +502,8 @@ dl.inline-flex dd {
 
 /* Section for news descriptions */
 
-@media (min-width: 640px)
-.news__item-description {
-    width: 85%;
+@media (min-width: 640px) .news__item-description {
+  width: 85%;
 }
 
 #news {
@@ -429,12 +511,13 @@ dl.inline-flex dd {
 }
 
 .news__item-description {
-    margin-left: 0px;
+  margin-left: 0px;
 }
 
-.news__item-date, .news__item-description {
-    display: inline-block;
-    vertical-align: top;
+.news__item-date,
+.news__item-description {
+  display: inline-block;
+  vertical-align: top;
 }
 
 .news__item-date {
@@ -453,22 +536,22 @@ dt.news__item-date p {
 /* Things that I needed to include in the footer section! */
 
 footer {
-    text-align: center;
-    font-size: 0.9rem;
+  text-align: center;
+  font-size: 0.9rem;
 }
 
 .dark {
-    background-color: #202631;
-    color: #fff;
+  background-color: #202631;
+  color: #fff;
 }
 
 .footer__links {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .footer-end {
@@ -480,163 +563,96 @@ footer {
 }
 
 #end div {
-  display:inline-flex;
+  display: inline-flex;
 }
 
 footer .container {
   padding: 0px;
 }
 
-/* Timeline? */
+/* Timeline? ... timeline  */
 
 .timeline {
-  position:relative;
-  box-sizing:border-box;
+  width: 100%;
+  max-width: 800px;
+  background-color: seashell;
+  padding: 50px 50px 0px;
+  position: relative;
+  box-shadow: 0.5rem 0.5rem 3rem 0 rgba(0, 0, 0, 0.2);
+}
+.timeline:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: calc(33% + 15px);
+  bottom: 0px;
+  width: 4px;
+  background: #ddd;
+}
+.timeline:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-.timeline:before{
-  content:'';
-  position:absolute;
-  left:50%;
-  width:2px;
-  height: 100%;
-  background:#000080;
+.entry {
+  clear: both;
+  text-align: left;
+  position: relative;
 }
-
-.timeline ul{
-  padding:0;
-  margin:0;
+.entry .title {
+  margin-bottom: 0.5em;
+  float: left;
+  width: 33%;
+  padding-right: 30px;
+  text-align: right;
+  position: relative;
 }
-
-.timeline ul li{
-  list-style:none;
-  position:relative;
-  width:50%;
-  padding:20px 40px;
-  box-sizing:border-box;
+.entry .title:before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 4px solid salmon;
+  background-color: #fff;
+  border-radius: 100%;
+  top: 15%;
+  right: -9px;
+  z-index: 5;
 }
-
-.timeline ul li:nth-child(odd){
-  float:left;
-  text-align:right;
-  clear:both;
+.entry .title h3 {
+  margin: 0;
+  font-size: 100%;
+  font-weight: bold;
 }
-
-.timeline ul li:nth-child(even){
-  float:right;
-  text-align:left;
-  clear:both;
+.entry .title p {
+  margin: 0;
+  font-size: 60%;
 }
-
-.timeline ul li:nth-child(odd):before {
-  content:'';
-  position:absolute;
-  width:10px;
-  height:10px;
-  top:24px;
-  right:-6px;
-  background:rgba(233,33,99,1);
-  border-radius:50%;
-  box-shadow:0 0 0 3px rgba(233,33,99,0.2);
-}
-
-.timeline ul li:nth-child(even):before
-{
-  content:'';
-  position:absolute;
-  width:10px;
-  height:10px;
-  top:24px;
-  left:-4px;
-  background:rgba(233,33,99,1);
-  border-radius:50%;
-  box-shadow:0 0 0 3px rgba(233,33,99,0.2);
-}
-.timeline ul li h3{
-  padding:0;
-  margin:0;
-  color: #1D8ECE;
-  font-weight:600;
+.entry .body {
+  margin: 0 0 3em;
+  float: right;
+  width: 66%;
+  padding-left: 30px;
+  font-size: 90%;
   font-style: italic;
 }
-.timeline ul li p{
-  margin:10px 0 0;
-  padding:0;
+.entry .body p {
+  line-height: 1.4em;
 }
-.timeline ul li .time h4{
-  margin:0;
-  padding:0;
-  font-size:14px;
+.entry .body p:first-child {
+  margin-top: 0;
+  font-weight: 400;
 }
-.timeline ul li:nth-child(odd) .time
-{
-  position:absolute;
-  top:12px;
-  right:-165px;
-  margin:0;
-  padding:8px 16px;
-  background: #1D8ECE;
-  color:#fff;
-  border-radius:18px;
-  box-shadow:0 0 0 3px #000080;
+.entry .body ul {
+  color: #aaa;
+  padding-left: 0;
+  list-style-type: none;
 }
-
-.timeline ul li:nth-child(even) .time
-{
-  position:absolute;
-  top:12px;
-  left:-165px;
-  margin:0;
-  padding:8px 16px;
-  background: #1D8ECE;
-  color:#fff;
-  border-radius:18px;
-  box-shadow:0 0 0 3px #000080;
+.entry .body ul li:before {
+  content: "–";
+  margin-right: 0.5em;
 }
-@media(max-width:1000px)
-{
-  .timeline{
-    width:100%;
-  }
-  .news-title {
-    margin-bottom: 30px
-  }
-}
-@media(max-width:767px){
-  .timeline{
-    width:100%;
-    padding-bottom:0;
-  }
-  h1{
-    font-size:40px;
-    text-align:center;
-  }
-  .timeline:before{
-    left:20px;
-    height:100%;
-  }
-  .timeline ul li:nth-child(odd),
-  .timeline ul li:nth-child(even)
-  {
-    width:100%;
-    text-align:left;
-    padding-left:50px;
-    padding-bottom:50px;
-  }
-  .timeline ul li:nth-child(odd):before,
-  .timeline ul li:nth-child(even):before
-  {
-    top:-18px;
-    left:16px;
-  }
-  .timeline ul li:nth-child(odd) .time,
-  .timeline ul li:nth-child(even) .time{
-    top:-30px;
-    left:50px;
-    right:inherit;
-  }
-}
-
 
 /* Here's a bunch of code to make the page responsive. Also why is this over 450
 lines of code (literally CSS is the worst). If you're reading this, know that I
@@ -651,7 +667,10 @@ love you a lot and hope you have a great day <3  */
     padding-right: 0px;
   }
 
-  .header_affiliation , .header_pronouns, .header_email, .header_links {
+  .header_affiliation,
+  .header_pronouns,
+  .header_email,
+  .header_links {
     text-align: center;
   }
 
@@ -673,40 +692,40 @@ love you a lot and hope you have a great day <3  */
   }
 }
 
-
 /* Legit Hate animations but okay */
 .slide-top {
-	-webkit-animation: slide-top 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
-	        animation: slide-top 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+  animation: slide-top 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
 }
 
 @-webkit-keyframes slide-top {
   0% {
     -webkit-transform: translateY(100px);
-            transform: translateY(100px);
+    transform: translateY(100px);
   }
   100% {
     -webkit-transform: translateY(0px);
-            transform: translateY(0px);
+    transform: translateY(0px);
   }
 }
 @keyframes slide-top {
   0% {
     -webkit-transform: translateY(100px);
-            transform: translateY(100px);
+    transform: translateY(100px);
   }
   100% {
     -webkit-transform: translateY(0px);
-            transform: translateY(0px);
+    transform: translateY(0px);
   }
 }
 
+/* Doggo Preloader! */
 .doggo {
-	top:0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
   padding-top: 250px;
   text-align: center;
 }
@@ -717,6 +736,6 @@ love you a lot and hope you have a great day <3  */
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   z-index: 10;
 }
