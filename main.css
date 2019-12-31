@@ -690,12 +690,19 @@ love you a lot and hope you have a great day <3  */
   footer .container {
     padding: 40px;
   }
+  .resume__item-links {
+    display: contents;
+  }
+  .resume__item-links > li:not(:first-of-type) {
+    padding-top: 5px;
+  }
 }
 
 /* Legit Hate animations but okay */
 .slide-top {
   -webkit-animation: slide-top 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
   animation: slide-top 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+  background-image: ;
 }
 
 @-webkit-keyframes slide-top {
@@ -738,4 +745,8 @@ love you a lot and hope you have a great day <3  */
   bottom: 0;
   background-color: #ffffff;
   z-index: 10;
+}
+
+.background {
+  background-image: url("background.jpg");
 }
