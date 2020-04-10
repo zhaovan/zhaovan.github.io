@@ -466,7 +466,8 @@ ul.posts li {
 .resume__link--code,
 .resume__link--paper,
 .resume__link--video,
-.resume__link--collab {
+.resume__link--collab,
+.resume__link--app {
   margin-left: 7.5px;
 }
 
