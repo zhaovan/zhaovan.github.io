@@ -40,7 +40,6 @@ sub,
 sup,
 tt,
 var,
-b,
 u,
 i,
 center,
@@ -117,7 +116,7 @@ body {
 }
 
 ul {
-  list-style-type: none;
+  /* list-style-type: none; */
   margin: 0;
   padding: 0;
 }
@@ -751,4 +750,8 @@ love you a lot and hope you have a great day <3  */
 
 .background {
   background-image: url("background.jpg");
+}
+
+.about-list {
+  margin-left: 50px;
 }
