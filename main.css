@@ -327,9 +327,9 @@ ul.posts li {
 .section-title::after {
   content: "";
   background-color: #99ffff;
-  height: 5px;
+  height: 8px;
   position: absolute;
-  top: 50%;
+  top: 60%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   left: 0;
