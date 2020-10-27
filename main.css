@@ -421,6 +421,11 @@ ul.posts li {
   color: #ebfaf2;
 }
 
+.resume__tag.product {
+  background-color: #af9292;
+  color: #ebfaf2;
+}
+
 .resume__item-description {
   width: 70%;
   margin-left: auto;
